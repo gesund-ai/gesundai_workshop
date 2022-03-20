@@ -5,6 +5,7 @@ from register.register import modelservice
 from core.engine.base_models import TensorflowModel
 from .preprocess import Preprocess
 from .postprocess import Postprocess
+from .loss import MyLoss
 
 logger = AppLogger(__name__).get_logger()
 
@@ -26,6 +27,7 @@ class MyNet(TensorflowModel):
         self.postprocess = Postprocess()
         self.num_classes = 1
         self.class_mapping = {1: 'Positive', 0: 'Negative'}
+        self.loss = MyLoss()
 
     def _load_model(self):
         self.model = super().load()
@@ -42,14 +44,6 @@ class MyNet(TensorflowModel):
         return y_pred
 
     def loss(self, y_pred, gts):
-        if not any(isinstance(el, list) for el in gts):
-            gts = np.asarray(list(map(lambda x: int(x), gts)))
-        # Apply loss function
-        _loss_function = tf.keras.losses.CategoricalCrossentropy(
-            reduction='none')
-        gts_encoder = np.zeros((gts.size, self.num_classes))
-        gts_encoder[np.arange(gts.size), gts] = 1
-        losses = _loss_function(
-            y_pred, gts_encoder).numpy()
+        return self.loss.calc_loss(y_pred, gts)
 
-        return losses.tolist()
+
