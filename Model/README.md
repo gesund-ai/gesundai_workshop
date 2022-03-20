@@ -41,7 +41,7 @@ The zip file would contain the following files list
 
 In reference with the above image, follow the instructions to implement your model architecture
 
-1. The **\_\_init\_\_.py** file contains the models import from model and response python scripts
+1. The [**\_\_init\_\_.py**](artifacts/__init__.py) file contains the models import from model and response python scripts
 
 ![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.007.png)
 
