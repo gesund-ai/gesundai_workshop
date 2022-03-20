@@ -68,7 +68,7 @@ In reference with the above image, follow the instructions to implement your mod
 
 7. For model deployment we require a [**reqs.txt**](artifacts/reqs.txt) file that includes the package versions required for this file.
 
-8. Write the response schema in the [**response.py**](artifacts/response.py) as per the postprocess output.
+8. Write the response schema in the [**schema.py**](artifacts/schema.py) as per the postprocess output.
 
 ![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.009.png)
 
