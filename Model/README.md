@@ -146,17 +146,25 @@ Click on the model card area and it will redirect to this page where you can cho
 
 # Step 4: Delete the uploaded model
 
+
 ![](imgs/abc1.png)
 
 1. Click on the **Delete** button on the top right corner of the screen
+
 ![](imgs/abc2.png)
 
+
 2. Click on **Delete**
+
+
 ![](imgs/abc3.png)
+
+
 
 3. You will be notified about successful model deletion and it will be also removed from the model list page.
 
 
 ![](imgs/abc4.png)
+
 
 ***Note: Once deleted the model cannot be retrieved. ***
