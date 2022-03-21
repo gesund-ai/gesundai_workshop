@@ -24,7 +24,7 @@ We need to upload model artifacts to follow a certain template, in-order to be u
 
 7. Select the **Architecture** of your choice, the **Architecture** list will be a subset list as per the selected **Model Type** and **Framework.** 
 
-***Note:** There are two types of architecture, default and user, when you download the artifacts, it will from a default model list that we have already implemented in our platform. You might have to structure the model bundle as per our structure.*
+***Note: There are two types of architecture, default and user, when you download the artifacts, it will from a default model list that we have already implemented in our platform. You might have to structure the model bundle as per our structure.***
 
 8. Click on **Download Artifacts**
 
@@ -50,10 +50,10 @@ In reference with the above image, follow the instructions to implement your mod
 3. The [**loss.py**](artifacts/loss.py) is the python script where you will store all your loss functions in the form of loss functions or loss class as per your requirement
 
 4. The [**model.py**](artifacts/model.py) is the main python file that includes the model load, prediction and loss calculation definitions. The main point to note here is registering your model class.
-
 ![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.008.png)
 
-4.1. Write the name of your class
+
+4.1 Write the name of your class
 
 4.2. Import the model service from the registry to register your class
 
@@ -143,3 +143,28 @@ Following are the steps to upload the model
 ![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.021.png)
 
 Click on the model card area and it will redirect to this page where you can choose to deploy the model and start with model prediction in the playground section.
+
+# Step 4: Delete the uploaded model
+
+
+![](imgs/abc1.png)
+
+1. Click on the **Delete** button on the top right corner of the screen
+
+![](imgs/abc2.png)
+
+
+2. Click on **Delete**
+
+
+![](imgs/abc3.png)
+
+
+
+3. You will be notified about successful model deletion and it will be also removed from the model list page.
+
+
+![](imgs/abc4.png)
+
+
+***Note: Once deleted the model cannot be retrieved. ***
