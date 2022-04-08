@@ -140,7 +140,7 @@ You can check **How to add AWS Credentials** section to add aws credentials to t
 
 ![](imgs/image17.png)
 
-3. Follow the steps **4 - 16** from **Option 1: Uploading dataset zip file to local storage.**  It would be exactly the same. 
+3. Follow the steps **8 - 16** from **Option 1: Uploading dataset zip file to local storage.**  It would be exactly the same. 
 
 
 ## Option 3: Uploading a dataset from URL Link
