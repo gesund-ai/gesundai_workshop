@@ -62,6 +62,8 @@ Following are the **steps** to upload a dataset zip file and the metadata
 2. Select **Upload Dataset .zip file** option.
 
 ![](imgs/image5.png)
+
+
 3. Select the dataset destination, here we will choose to store the image in the local storage of the platform
 
 ![](imgs/image6.png)
@@ -93,6 +95,8 @@ and checkout the metadata csv file.
 
 
 ![](imgs/image10.png)
+
+
 12. The final step here is to fill the form that is required to publish your data card on the platform.
 You can choose to fill the form from any of the existing Data Cards as per the similarity of the dataset.
 For this example we will select CovidNet data with is similar to the images we uploaded.
