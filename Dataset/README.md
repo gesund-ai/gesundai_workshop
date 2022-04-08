@@ -55,7 +55,7 @@ At the moment, the platform supports metadata file with **.csv** extension.
 
 Following are the **steps** to upload a dataset zip file and the metadata
 
-1. Select the file type of the dataset. The platform supports uploading, ** PNG, JPG, NIFTI, DICOM, TIFF ** types of images.
+1. Select the file type of the dataset. The platform supports uploading, **PNG, JPG, NIFTI, DICOM, TIFF** types of images.
 
 ![](imgs/image4.png)
 
