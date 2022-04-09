@@ -1,26 +1,6 @@
 This document guides through the dataset upload process.
 
 
-# How to add AWS Credentials
-
-This section explains the steps to add AWS Credentials to the platform. AWS credentials will be needed if AWS S3 is your choice of storage 
-for your datasets. It will be also needed to store models in the S3 bucket. At the moment, the platform supports AWS cloud platform.
-
-Following are the steps to add AWS Credentials.
-
-1. Click on the **Platform** page > **AWS Credentials** > **Add New AWS Key**
-
-![](imgs/image18.png)
-
-2. You will get a dialog box to enter the name, access key id and secret access key. 
-The secret access key will be encrypted and stored in our database. Click on the **Submit** button
-
-![](imgs/image19.png)
-
-3. Once you click on the **Submit** button, you will get the notification and the newly added credentials will be displayed.
-
-![](imgs/image20.png)
-
 # How to Upload the Dataset Cover Image
 
 1. Click on the **Data** page of the application
@@ -195,3 +175,24 @@ Enter the local path.
 ![](imgs/image25.png)
 
 2. Follow the steps **8 - 16** from **Option 1: Uploading dataset zip file to local storage.**  It would be exactly the same. 
+
+
+# How to add AWS Credentials
+
+This section explains the steps to add AWS Credentials to the platform. AWS credentials will be needed if AWS S3 is your choice of storage 
+for your datasets. It will be also needed to store models in the S3 bucket. At the moment, the platform supports AWS cloud platform.
+
+Following are the steps to add AWS Credentials.
+
+1. Click on the **Platform** page > **AWS Credentials** > **Add New AWS Key**
+
+![](imgs/image18.png)
+
+2. You will get a dialog box to enter the name, access key id and secret access key. 
+The secret access key will be encrypted and stored in our database. Click on the **Submit** button
+
+![](imgs/image19.png)
+
+3. Once you click on the **Submit** button, you will get the notification and the newly added credentials will be displayed.
+
+![](imgs/image20.png)
