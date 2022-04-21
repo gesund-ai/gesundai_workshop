@@ -1,5 +1,5 @@
 # Dataset Upload and Management Process
-### Classification Datasets
+## Classification Datasets
 
 |Dataset Name|Reference|Data Size|Data Type|Anatomy|Modality|Data Size (GB)|Download 
 |---| :---: | :---: | :---: | :---: | :---: |:---: | :---:  
@@ -7,10 +7,7 @@
 |[RSNA Pneumonia](https://gesundai-medical-images.s3.eu-west-1.amazonaws.com/private/Rsna_Pneumonia_Datasets/rsna_pneumonia_dataset.zip?response-content-disposition=attachment&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCWV1LXdlc3QtMiJHMEUCIQCASNblYXcpH3k5ExvYHwtloekPJ%2BAAX2DRYolYf7%2BVJgIga4MaFwmsN17CRVx5QbM6PL4rpfIXeiGrsU8wAMf5cnAqiAMIpf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwNTc2OTc1NjA2MzgiDMpBFovinSvjQwns5yrcAoqKBDE%2BpzBxoaT4xAfGQewR7do86f%2BGwjjptKmN3aNNvIi%2BickVUxw%2FoMpFIT1O5Sw2%2FNheT6QGDZ2I%2FEczuZZjXuQtE2swMwntiPJ12323gUkV15VyU%2BDXuGmWrydasyzrR%2FVW2BEGZnvmqm8biFS5FemWnGN7eDe5tkefZWPwVh2ZoVYQqmwFRDmJKfXZbM%2FRun8rkx4T8%2Bwr9nuyLSzyjYGiMl151k9cZh2OTzOitQAqCdNh5Oi3uwNETIoHG12GkREMuEVFQa42FyAAnIR%2FKYpiw6gMnPYQ1pz1%2FwZpwFGtNUG4pkaVQvQip55BjB2dcfFRa5eWpzGdDDuUjJ90iH%2FjTTqTBp7K9iSWrJyiYQ%2FBwHdb4y2cUS8MddG8FNoh67QDk7%2FmyJ1Ux4zJJGAeICx9vWbcSMyL%2BgACbF4Ia9wf4NCPJru7oWryoSxy7zd1TjcX2l43vWzn4jCaz%2BqSBjqzAvPWxHg8h1zRwMw0IjhEPr8HRFrAo2TuHqoX5PdBukGR4pB9Ov71pydLfw9MjNfoTUUoB7S76rrjs02fcKPmAOjyqR8pgxa5JxbL6U985QNy3oQDyJD%2B8NT2OmnEzYn0Logg0iktLvzxgG%2BX1wlo%2F4SlMICDkKUMfqDH7tj%2BbTPlwzTsKrvELeJDq34MMj%2F8nE3Fr0EmR28y2yMQceT8aEkrQv1%2BmG62U0J%2B5wnB18TXNiDyJOZkLFO%2B1D%2Bnz%2F9uveYxU10TNzkjUOr0xoo6jLW5WM0Ncp3eVBIZD1sfR0wMgI%2BZaeN6Ctv2rZsGoFPnwEBeFRPDZkT0GdcgECaoAYMdH8WH5VMYXwu%2B13apJVFKjAJxDgjjXh8cco1R60FcT0na%2FGq9K2YHyIbTPZ0RRQgD7hk%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220416T114835Z&X-Amz-SignedHeaders=host&X-Amz-Expires=299&X-Amz-Credential=ASIAQ23YK5A7LI2FXR5T%2F20220416%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Signature=72098312c5b19e2e1244466b61f15abb422bf95a01f1babb83042fc1350f0cff)|[Kaggle](https://www.kaggle.com/competitions/rsna-pneumonia-detection-challenge)|1024x1024|DCM|Chest|X-Ray|3.96|[Annotation](https://gesundai-medical-images.s3.eu-west-1.amazonaws.com/private/Brain-Tumor-Classification-Dataset/annotation.csv?response-content-disposition=attachment&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEMaCWV1LXdlc3QtMyJFMEMCH2AEpQgRmf1mMhJ3UBXLMmCNtWWgt68sVcio%2FwoG%2BY8CIGCg%2BnMzQ8FUd2yelERQOkvEBgKRGECEmNS8wZOKQg8sKogDCNz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMDU3Njk3NTYwNjM4IgxCtotggx3HS44SSfMq3AJk4n1BadpSMqPu0s2NjSLLYVd7jowHrTxRtiAZmxvuKdehDQrn2zLDfP0naZz3TAnntlTifyHzQWON5RETw8ySD%2BGTX5cH5rPIGZaXDQFc6CaF5A4UBY8PaEuYrcXY%2B6X5dn6EcalEQ%2BoUsgV6wXwOTZpiVin6ecH4RU4Ns7uJlKPEZBMsmoVYj08%2F3feZbhtPGMCSohukIBYCPKDaJchQjx%2FdGYkvpjZjw1hVOTn3zxEbThnprGQI3G65Ifdm6a7iax84NQKlICaZ%2FcaDdEb6R3zFdA%2FcPUdxqpL6P0KfUxMFCyCz7SwWz2MDBE0gzDE7agVAQ%2BwJi6Pc6EiaHG17qqV2ljX7MM35Du1rgLbwudP6jBwhDZtQSG%2BJ7m7swnyvPFp6Lxakjb1KbHNNJn14Qkc%2B%2BfDfEao4nZTEGSxKMLVQYAARPSm9N%2F25CZFxUKhEBADuJ6ahBwDdUJYwuv7BkgY6tQLhpM8mVrxjhv5Exz5s6D3rL%2FdEsJ1rmPXdtPq6eGSgI9H8L1NPob3b4klZ707D59ikozbhaX2L%2BLPKAO8cDYpwCYW0e3tIsDm4QvGX%2BEAVYgZbIJuUG4RUAxhW9P%2B%2FRTLa2SvMVrr%2BZHrf2aDjXK1x2GQE8yBX%2FFZF9Z4BcVdsgd%2BgcUTQ31svD3oxurgh87B4D3cjhjRxx0p50zrdMc6pEJozR6LrMgD1RMf%2BcldSmOYTezmlzpPZDkYQJm9qhJec0nRCstXn819A8GDhgFujcoUo0giLHfHfoo0I3twsw68JfDEbV%2FnNVO31uybilbU%2FcgaDkzy2dNQUg1OwU%2BA%2F1sCJZd03RDkUdyXfsK7x4E33TedvjvIWlgiqQRXXc9Du%2BiLRU7INjm0x9zexuWFK7hkUDWk%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220408T190732Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ23YK5A7IXNCNGPA%2F20220408%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Signature=6b1d57c6eccdd8b1ed6c930ef37dab3447911851cd15f570242813ea56ed5e53)/[Metadata](https://gesundai-medical-images.s3.eu-west-1.amazonaws.com/private/Brain-Tumor-Classification-Dataset/meta_data.csv?response-content-disposition=attachment&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEMaCWV1LXdlc3QtMyJFMEMCH2AEpQgRmf1mMhJ3UBXLMmCNtWWgt68sVcio%2FwoG%2BY8CIGCg%2BnMzQ8FUd2yelERQOkvEBgKRGECEmNS8wZOKQg8sKogDCNz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMDU3Njk3NTYwNjM4IgxCtotggx3HS44SSfMq3AJk4n1BadpSMqPu0s2NjSLLYVd7jowHrTxRtiAZmxvuKdehDQrn2zLDfP0naZz3TAnntlTifyHzQWON5RETw8ySD%2BGTX5cH5rPIGZaXDQFc6CaF5A4UBY8PaEuYrcXY%2B6X5dn6EcalEQ%2BoUsgV6wXwOTZpiVin6ecH4RU4Ns7uJlKPEZBMsmoVYj08%2F3feZbhtPGMCSohukIBYCPKDaJchQjx%2FdGYkvpjZjw1hVOTn3zxEbThnprGQI3G65Ifdm6a7iax84NQKlICaZ%2FcaDdEb6R3zFdA%2FcPUdxqpL6P0KfUxMFCyCz7SwWz2MDBE0gzDE7agVAQ%2BwJi6Pc6EiaHG17qqV2ljX7MM35Du1rgLbwudP6jBwhDZtQSG%2BJ7m7swnyvPFp6Lxakjb1KbHNNJn14Qkc%2B%2BfDfEao4nZTEGSxKMLVQYAARPSm9N%2F25CZFxUKhEBADuJ6ahBwDdUJYwuv7BkgY6tQLhpM8mVrxjhv5Exz5s6D3rL%2FdEsJ1rmPXdtPq6eGSgI9H8L1NPob3b4klZ707D59ikozbhaX2L%2BLPKAO8cDYpwCYW0e3tIsDm4QvGX%2BEAVYgZbIJuUG4RUAxhW9P%2B%2FRTLa2SvMVrr%2BZHrf2aDjXK1x2GQE8yBX%2FFZF9Z4BcVdsgd%2BgcUTQ31svD3oxurgh87B4D3cjhjRxx0p50zrdMc6pEJozR6LrMgD1RMf%2BcldSmOYTezmlzpPZDkYQJm9qhJec0nRCstXn819A8GDhgFujcoUo0giLHfHfoo0I3twsw68JfDEbV%2FnNVO31uybilbU%2FcgaDkzy2dNQUg1OwU%2BA%2F1sCJZd03RDkUdyXfsK7x4E33TedvjvIWlgiqQRXXc9Du%2BiLRU7INjm0x9zexuWFK7hkUDWk%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220408T190747Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ23YK5A7IXNCNGPA%2F20220408%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Signature=16fe7e00a88231316faa23c5317e73d1cdae4a2456017b0133e19eb3e2dab45b)
 
 
-This document guides through the dataset upload process.
-
-
-# How to Upload the Dataset Cover Image
+## How to Upload the Dataset Cover Image
 
 1. Click on the **Data** page of the application
 
@@ -21,11 +18,11 @@ This document guides through the dataset upload process.
 
 This document guides through the dataset upload process.
 
-# How to Upload a dataset
+### How to Upload a dataset
 
 The platform supports multiple options for uploading any dataset, which you may choose from.
 
-### Option 1: Uploading a dataset zip file to local storage
+#### Option 1: Uploading a dataset zip file to local storage
 
 This option enables you to upload a zip file to the platform local storage.
 Choosing this option you can upload a zip file, and its respective metadata file.
