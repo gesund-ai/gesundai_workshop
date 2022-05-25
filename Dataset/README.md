@@ -48,20 +48,20 @@ Here there are only 5 files in the zip hence all the images are displayed as thu
 ![](imgs/image10.png)
 
 
-12. The final step here is to fill the form that is required to publish your data card on the platform.
+8. The final step here is to fill the form that is required to publish your data card on the platform.
 You can choose to fill the form from any of the existing Data Cards as per the similarity of the dataset.
 For this example we will select CovidNet data with is similar to the images we uploaded.
 
 ![](imgs/image11.png)
 
-13. Fill in the required details of the form
+9. Fill in the required details of the form
 
 ![](imgs/image12.png)
 
-14. Set the permission on the dataset. If you wish to make the dataset public, click on the **Public** button.
+10. Set the permission on the dataset. If you wish to make the dataset public, click on the **Public** button.
 If you wish to make it private, add the email id of the list of users who can access the dataset.
 
-15. Click on the **Submit** button, and you will get a notification that the model is uploaded successfully.
+11. Click on the **Submit** button, and you will get a notification that the model is uploaded successfully.
 
 ![](imgs/image13.png)
 
@@ -69,7 +69,7 @@ If you wish to make it private, add the email id of the list of users who can ac
 
 ![](imgs/image15.png)
 
-16. Go **Datasets** tab, and you will see the uploaded dataset. 
+12. Go **Datasets** tab, and you will see the uploaded dataset. 
 Click on the Data Card and you will be able to see a dashboard, click on the explore tab, and you will see the images in the dataset.
 
 
