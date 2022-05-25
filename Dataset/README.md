@@ -1,26 +1,5 @@
 This document guides through the dataset upload process.
 
-
-# How to Upload the Dataset Cover Image
-
-1. Click on the **Data** page of the application
-
-![](imgs/image1.png)
-
-
-2. Click on the **Upload Dataset** tab
-
-![](imgs/image2.png)
-
-3. Click on the **image area**, an image upload dialog box will open up and then upload the image of your choice.
-
-4. Click on **Open**
-
-![](imgs/image3.png)
-
-
-5. Adjust the image if you may like and then click on **OK**
-
 # How to Upload a dataset
 
 The platform supports multiple options for uploading any dataset, which you may choose from.
@@ -63,23 +42,6 @@ Here there are only 5 files in the zip hence all the images are displayed as thu
 
 7. A notification will be blinked when the dataset upload is successful.
 
-
-***=====================================***
-
-***Note: Uploading Metadata is an Independent feature now. PLEASE SKIP step 8 - 11.***
-
-![](imgs/image9.png)
-
-8. Click on the **Upload Metadata** and an upload menu will be opened up to you.
-
-9. We expect metadata in a specific format. The format is simple to make and to have a look at it, click on the **download button**
-and checkout the metadata csv file.
-
-10. Click on the **Upload Metadata** button, an upload dialog box.
-
-11. Select the csv file and **Open** the file. You will see a notification on the platform.
-
-***=====================================***
 
 ![](imgs/image10.png)
 
@@ -183,6 +145,25 @@ Enter the local path.
 
 2. Follow the steps **8 - 16** from **Option 1: Uploading dataset zip file to local storage.**  It would be exactly the same. 
 
+# How to Upload the Dataset Cover Image
+
+1. Click on the **Data** page of the application
+
+![](imgs/image1.png)
+
+
+2. Click on the **Upload Dataset** tab
+
+![](imgs/image2.png)
+
+3. Click on the **image area**, an image upload dialog box will open up and then upload the image of your choice.
+
+4. Click on **Open**
+
+![](imgs/image3.png)
+
+
+5. Adjust the image if you may like and then click on **OK**
 
 # How to add AWS Credentials
 
