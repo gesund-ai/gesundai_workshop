@@ -64,15 +64,22 @@ Here there are only 5 files in the zip hence all the images are displayed as thu
 7. A notification will be blinked when the dataset upload is successful.
 
 
-***Note: Uploading Metadata is an optional feature. If you don't have any metadata csv file you can skip step 8 - 11.***
+***=====================================***
+
+***Note: Uploading Metadata is an Independent feature now. PLEASE SKIP step 8 - 11.***
 
 ![](imgs/image9.png)
+
 8. Click on the **Upload Metadata** and an upload menu will be opened up to you.
+
 9. We expect metadata in a specific format. The format is simple to make and to have a look at it, click on the **download button**
 and checkout the metadata csv file.
+
 10. Click on the **Upload Metadata** button, an upload dialog box.
+
 11. Select the csv file and **Open** the file. You will see a notification on the platform.
 
+***=====================================***
 
 ![](imgs/image10.png)
 
