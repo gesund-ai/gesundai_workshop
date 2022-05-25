@@ -1,10 +1,12 @@
+# Dataset Upload and Management Process
+
 This document guides through the dataset upload process.
 
 # How to Upload a dataset
 
 The platform supports multiple options for uploading any dataset, which you may choose from.
 
-## Option 1: Uploading a dataset zip file to local storage
+### Option 1: Uploading a dataset zip file to local storage
 
 This option enables you to upload a zip file to the platform local storage.
 Choosing this option you can upload a zip file, and its respective metadata file.
@@ -71,7 +73,7 @@ If you wish to make it private, add the email id of the list of users who can ac
 Click on the Data Card and you will be able to see a dashboard, click on the explore tab, and you will see the images in the dataset.
 
 
-## Option 2: Uploading a dataset zip file to s3 bucket
+### Option 2: Uploading a dataset zip file to s3 bucket
 
 Using this option you will be able to upload the zip file from your local to a s3 bucket of your choice.
 
@@ -92,7 +94,7 @@ You can check **How to add AWS Credentials** section to add aws credentials to t
 3. Follow the steps **8 - 16** from **Option 1: Uploading dataset zip file to local storage.**  It would be exactly the same. 
 
 
-## Option 3: Uploading a dataset from URL Link
+### Option 3: Uploading a dataset from URL Link
 
 This option enables you to download the data from any zip url, for e.g. a shared Google Drive link of a zip file and store it either in the local
 storage of the platform or in the AWS s3 bucket.
@@ -110,7 +112,7 @@ To delete the uploaded files click on the **Delete Uploaded File**
 
 3. Follow the steps **8 - 16** from **Option 1: Uploading dataset zip file to local storage.**  It would be exactly the same. 
 
-## Option 4: Adding the dataset from AWS S3 bucket
+### Option 4: Adding the dataset from AWS S3 bucket
 
 This option enables you to add dataset directly into the platform, using the S3 bucket. This option assumes the dataset is already uploaded in the S3 bucket.
 Here, there is no uploading step, rather the dataset is added directly into the place considering AWS S3 bucket as the source.
@@ -132,7 +134,7 @@ The **S3 Dataset Path** should have no nested folders, it should have images. Fo
 
 2. Follow the steps **8 - 16** from **Option 1: Uploading dataset zip file to local storage.**  It would be exactly the same.
 
-## Option 5: Adding the dataset from local path
+### Option 5: Adding the dataset from local path
 
 This option enables you to add dataset directly into the platform, using the local path. This option assumes the dataset is already uploaded in the platform.
 Here, there is no uploading step, rather the dataset is added directly into the place considering local path as the source.
@@ -165,7 +167,7 @@ Enter the local path.
 
 5. Adjust the image if you may like and then click on **OK**
 
-# How to add AWS Credentials
+## How to add AWS Credentials
 
 This section explains the steps to add AWS Credentials to the platform. AWS credentials will be needed if AWS S3 is your choice of storage 
 for your datasets. It will be also needed to store models in the S3 bucket. At the moment, the platform supports AWS cloud platform.
