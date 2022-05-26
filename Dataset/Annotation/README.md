@@ -88,11 +88,11 @@ This document guides through the annotation management process.
 
 9. Follow the steps **6-7-8** mentioned in the **Option 1** Section.
 
-## Show Grund Truth (Problem Type: Instance Segmentation)
+## Show Ground Truth (Problem Type: Instance Segmentation)
 
 There are two options to see ground truth on annotation.
 
-### Option 1: Show Grund Truth From List View
+### Option 1: Show Ground Truth From List View
 
 ![](imgs/image13.png)
 
@@ -102,7 +102,7 @@ There are two options to see ground truth on annotation.
 
 3. Show or hide ground truth for problem type **instance segmentation**
 
-### Option 2: Show Grund Truth From Card View
+### Option 2: Show Ground Truth From Card View
 
 ![](imgs/image17.png)
 
@@ -112,11 +112,11 @@ There are two options to see ground truth on annotation.
 
 3. Show or hide ground truth for problem type **instance segmentation**
 
-## Update Grund Truth (Problem Type: Classification)
+## Update Ground Truth (Problem Type: Classification)
 
 There are two options to update ground truth on annotation.
 
-### Option 1: Update Grund Truth From List View
+### Option 1: Update Ground Truth From List View
 
 ![](imgs/image14.png)
 
