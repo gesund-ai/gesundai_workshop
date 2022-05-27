@@ -110,7 +110,7 @@ There are two options to see ground truth on annotation.
 
 2. Select data from list.
 
-3. Show or hide ground truth for problem type **instance segmentation**
+3. Show or hide ground truth for problem type **segmentation and object detection**
 
 ## Update Ground Truth (Problem Type: Classification)
 
