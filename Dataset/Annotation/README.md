@@ -24,7 +24,7 @@ This document guides through the annotation management process.
 
 8. You can **Export annotation as CSV file** with export button.
 
-9. You can **search annotation** with search bar.
+9. You can **search image** with search bar.
 
 10. YOu can change the view of annotations as **list view** or **card view**.
 
