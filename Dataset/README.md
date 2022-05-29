@@ -4,7 +4,7 @@
 |Dataset Name|Reference|Data Size|Data Type|Anatomy|Modality|Data Size (GB)|Download 
 |---| :---: | :---: | :---: | :---: | :---: |:---: | :---:  
 |[Brain Tumor](https://gesundai-medical-images.s3.eu-west-1.amazonaws.com/private/Brain-Tumor-Classification-Dataset/Brain-Tumor-Classification-Dataset.zip)|[Kaggle](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection)|224x224|JPG|Brain|MRI|0.8|Annotation/[Metadata](https://gesundai-medical-images.s3.eu-west-1.amazonaws.com/private/Brain-Tumor-Classification-Dataset/meta_data.csv)
-|[ISIC Challannge 2020](https://gesundai-medical-images.s3.eu-west-1.amazonaws.com/private/Brain-Tumor-Classification-Dataset/Brain-Tumor-Classification-Dataset.zip)|[Kaggle](https://www.kaggle.com/competitions/siim-isic-melanoma-classification)|1024x1024|DCM|Skin|MRI|116.16|Annotation/[Metadata](https://gesundai-medical-images.s3.eu-west-1.amazonaws.com/private/Brain-Tumor-Classification-Dataset/meta_data.csv)
+|[ISIC Challenge 2020](https://gesundai-medical-images.s3.eu-west-1.amazonaws.com/private/Brain-Tumor-Classification-Dataset/Brain-Tumor-Classification-Dataset.zip)|[Kaggle](https://www.kaggle.com/competitions/siim-isic-melanoma-classification)|1024x1024|DCM|Skin|MRI|116.16|Annotation/[Metadata](https://gesundai-medical-images.s3.eu-west-1.amazonaws.com/private/Brain-Tumor-Classification-Dataset/meta_data.csv)
 |[MIDRC Chest](https://gesundai-medical-images.s3.eu-west-1.amazonaws.com/private/MIDRC_Chest/)|[TCIA](https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=80969742)|224x224|DCM|Chest|CT|11|Annotation/[Metadata](https://gesundai-medical-images.s3.eu-west-1.amazonaws.com/private/MIDRC_Chest/meta_data.csv)
 
 ## Object Detection Datasets
