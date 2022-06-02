@@ -1,8 +1,14 @@
 from logger import AppLogger
-from register.register import modelservice
+
+import tensorflow as tf
+import efficientnet.tfkeras as efn
+import tensorflow.keras.backend as K
+import numpy as np
+
 from .preprocess import Preprocess
 from .postprocess import Postprocess
-
+from register.register import modelservice
+from .efficientnet import EfficientNet
 logger = AppLogger(__name__).get_logger()
 
 __all__ = ["ISIC_TF"]
@@ -13,26 +19,27 @@ class ISIC_TF:
         self.model_path = model_path
         self.preprocess = Preprocess()
         self.postprocess = Postprocess()
+        self.efficientnet_obj = EfficientNet()
+        self.model = EfficientNet.model()
 
-        
     def load(self):
-        import tensorflow as tf
-        import efficientnet.tfkeras as efn
-        import tensorflow.keras.backend as K
-
-        inp = tf.keras.layers.Input(shape=(384, 384, 3))
-        base = efn.EfficientNetB6(input_shape=(384, 384, 3), weights="imagenet", include_top=False)
-        x = base(inp)
-        x = tf.keras.layers.GlobalAveragePooling2D()(x)
-        x = tf.keras.layers.Dense(1, activation="sigmoid")(x)
-        model = tf.keras.Model(inputs=inp, outputs=x)
-        opt = tf.keras.optimizers.Adam(learning_rate=0.001)
-        loss = tf.keras.losses.BinaryCrossentropy(label_smoothing=0.05)
-        model.compile(optimizer=opt, loss=loss, metrics=["AUC"])
-        K.clear_session()
-        model.load_weights(self.model_path)
-        self.model = model
+        self.model.load_weights(self.model_path)
 
     def predict(self, img):
         pred = self.model.predict(img)
         return pred
+
+    def loss(self, y_pred, gts):
+        if not any(isinstance(el, list) for el in gts):
+            gts = np.asarray(list(map(lambda x: int(x["class"]), gts)))
+        # Apply loss function
+        _loss_function = tf.keras.losses.CategoricalCrossentropy(reduction="none")
+        gts_encoder = np.zeros((gts.size, 2))
+        gts_encoder[np.arange(gts.size), gts] = 1
+
+        y_pred = np.array((y_pred>0.5)*1).flatten()
+        pred_encoder = np.zeros((y_pred.size,2))
+        pred_encoder[np.arange(y_pred.size),y_pred] = 1
+        losses = _loss_function(pred_encoder, gts_encoder).numpy()
+
+        return losses.tolist()

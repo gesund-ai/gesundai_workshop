@@ -1,10 +1,9 @@
+import numpy as np
+
+
 def custom_postprocess_fxn(model_output, batch=False, context=None, threshold=0.5):
     def _postprocess(output):
-        import torch.nn.functional as F
-        import numpy as np
-        
-        logits = F.softmax(output, dim=1).detach().numpy()[0]  # list of probabilities
-        logits =  logits[0:2]/np.sum(logits[0:2]) 
+        logits = output.detach().numpy()  # list of probabilities
         y_pred = logits
 
         prediction_index = logits.tolist().index(max(logits))  # index of the highest probability
@@ -23,12 +22,11 @@ def custom_postprocess_fxn(model_output, batch=False, context=None, threshold=0.
                     'logits': logits.tolist(),
                     'status': 200}
         return output
-
     if batch:
         return [_postprocess(output) for output in model_output]
-        
+
     else:
-        return _postprocess(model_output)
+        return _postprocess(model_output[0])
 
 
 class Postprocess():

@@ -1,6 +1,6 @@
 def custom_postprocess_fxn(model_output, batch=False, context=None, threshold=0.5):
     def _postprocess(output):
-        for i in output[0]:
+        for i in output:
             i = i.tolist()
             if i >threshold:
                 prediction_class = 1
@@ -10,7 +10,7 @@ def custom_postprocess_fxn(model_output, batch=False, context=None, threshold=0.
                 prediction_class = 0
                 confidence = 1 - i
                 logits = [1 - i, i]
-        
+
         output = {
             "prediction_class": prediction_class,
             "confidence": confidence,
@@ -21,7 +21,7 @@ def custom_postprocess_fxn(model_output, batch=False, context=None, threshold=0.
 
     if batch:
         return [_postprocess(i) for i in model_output]
-        
+
     else:
         return _postprocess(model_output)
 
