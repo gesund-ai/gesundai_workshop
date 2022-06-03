@@ -1,6 +1,9 @@
-import tensorflow as tf
-import efficientnet.tfkeras as efn
-import tensorflow.keras.backend as K
+try:
+    import tensorflow as tf
+    import efficientnet.tfkeras as efn
+    import tensorflow.keras.backend as K
+except:
+    pass
 
 from register.register import modelservice
 from .preprocess import Preprocess

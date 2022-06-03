@@ -1,9 +1,11 @@
 from logger import AppLogger
-
-import tensorflow as tf
-import efficientnet.tfkeras as efn
-import tensorflow.keras.backend as K
-import numpy as np
+try:
+    import tensorflow as tf
+    import efficientnet.tfkeras as efn
+    import tensorflow.keras.backend as K
+    import numpy as np
+except:
+    pass
 
 from .preprocess import Preprocess
 from .postprocess import Postprocess
