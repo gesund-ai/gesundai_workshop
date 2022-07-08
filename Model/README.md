@@ -24,7 +24,7 @@ We need to upload model artifacts to follow a certain template, in-order to be u
 
 7. Select the **Architecture** of your choice, the **Architecture** list will be a subset list as per the selected **Model Type** and **Framework.** 
 
-    ***Note: There are two types of architecture, default and user, when you download the artifacts, it will from a default model list that we have already implemented in our platform. You might have to structure the model bundle as per our structure.***
+        Note: There are two types of architecture, default and user, when you download the artifacts, it will from a default model list that we have already implemented in our platform. You might have to structure the model bundle as per our structure.
 
 8. Click on **Download Artifacts**
 
@@ -169,4 +169,4 @@ Click on the model card area and it will redirect to this page where you can cho
     ![](imgs/abc4.png)
 
 
-***Note: Once deleted the model cannot be retrieved. ***
+        Note: Once deleted the model cannot be retrieved.
