@@ -35,31 +35,19 @@ We need to upload model artifacts to follow a certain template, in-order to be u
 
 The zip file would contain the following files list
 
-![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.006.png)
 
 # Step 2: Model artifacts content explanation
 
 In reference with the above image, follow the instructions to implement your model architecture
 
-1. The [**\_\_init\_\_.py**](artifacts/__init__.py) file contains the models import from model .It should also have prediction , postprocess and response python scripts.
-
-    ![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.007.png)
-
-2. Here, the **classifier.h5** is the model used in this example, it can any saved model that includes *.pth, .pt, tensorflow checkpoints, pt model checkpoints, .onnx model, .sklearn model etc.*
-
-3. The [**loss.py**](artifacts/loss.py) is the python script where you will store all your loss functions in the form of loss functions or loss class as per your requirement
-
-4. The [**model.py**](artifacts/model.py) is the main python file that includes the model load, prediction and loss calculation definitions. 
-
-    The main point to note here is registering your model class.
-
-    ![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.008.png)
-
-
-    4.1 Write the name of the class 
+1. The [**model.py**](artifacts/model.py) is the main python file that includes the model load, prediction and loss calculation definitions. 
+ 
         
-         Make a note that the class should be named GesundModel.
+        Make a note that the class should be named  
+        GesundModel.
 
+
+2. The [**loss.py**](artifacts/loss.py) is the python script where you will store all your loss functions in the form of loss functions or loss class as per your requirement
 
 
 5. Write your preprocess function in the [**postprocess.py**](artifacts/postprocess.py) python file as a class or function.
@@ -68,13 +56,6 @@ In reference with the above image, follow the instructions to implement your mod
 
 7. For model deployment we require a [**reqs.txt**](artifacts/reqs.txt) file that includes the package versions required for this file.
 
-8. Write the response schema in the [**schema.py**](artifacts/schema.py) as per the postprocess output.
-
-![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.009.png)
-
-8.1. Import the out schema from register to register your response model. It would be a pydantic model
-
-8.2. Decorate the class with outschema class and register module function to register your class with respective namespace (it should be the same as used to register model class and default set to false)
 
 # Step 3: Upload the model artifacts
 
