@@ -6,15 +6,15 @@ We need to upload model artifacts to follow a certain template, in-order to be u
 1. Click on the **Model** page of the application
 
 
-![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.001.png)
+    ![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.001.png)
 
 2. Click on the **Upload Models** tab
 
-![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.002.png)
+    ![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.002.png)
 
 3. Click on the **Download & Upload Artifacts** on the bottom of the page. You will see a modal popping up as shown in the below image.
 
-![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.003.png)
+    ![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.003.png)
 
 4. Click on the **Download Artifacts** Tab in the model
 
@@ -24,13 +24,13 @@ We need to upload model artifacts to follow a certain template, in-order to be u
 
 7. Select the **Architecture** of your choice, the **Architecture** list will be a subset list as per the selected **Model Type** and **Framework.** 
 
-***Note: There are two types of architecture, default and user, when you download the artifacts, it will from a default model list that we have already implemented in our platform. You might have to structure the model bundle as per our structure.***
+    ***Note: There are two types of architecture, default and user, when you download the artifacts, it will from a default model list that we have already implemented in our platform. You might have to structure the model bundle as per our structure.***
 
 8. Click on **Download Artifacts**
 
 9. After download you will get two responses from the application, a **model\_artifacts.zip** file will be downloaded and a notification will be popped up.
 
-![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.004.png)![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.005.png)
+    ![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.004.png)![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.005.png)
 
 
 The zip file would contain the following files list
@@ -114,33 +114,35 @@ Following are the steps to upload the model
 
 11. Click on the **Continue** button.
 
-![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.015.png)
+    ![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.015.png)
 
 12. After you click on **Continue** button, the next section you will be directed to is the **Upload Files** section.
 
 13. Click on the **Upload Model** area and select the model artifacts zip file that you have prepared.
 
-![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.016.png)
+    ![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.016.png)
 
-14. When you upload the zip file the progress bar indicates the upload status. Once the upload is complete you will receive a notification on the top right of the screen stating the model upload being successful.
+14. When you upload the zip file the progress bar indicates the upload status.
 
-![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.017.png)
+    Once the upload is complete you will receive a notification on the top right of the screen stating the model upload being successful.
+
+    ![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.017.png)
 
 15. Fill in the model card details form, you can choose to **Fill From Previous Models.** 
 
-![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.018.png)
+    ![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.018.png)
 
 16. Once the details are filled click on the **Submit** button.
 
-![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.019.png)
+    ![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.019.png)
 
 17. There will be a pop-up notification stating the successful addition of model card to the platform. Click on the **Back to Models** button.
 
-![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.020.png)
+    ![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.020.png)
 
 18. On the models page you will see your recently upload model enlisted as in the list of models.
 
-![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.021.png)
+    ![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.021.png)
 
 Click on the model card area and it will redirect to this page where you can choose to deploy the model and start with model prediction in the playground section.
 
@@ -151,20 +153,20 @@ Click on the model card area and it will redirect to this page where you can cho
 
 1. Click on the **Delete** button on the top right corner of the screen
 
-![](imgs/abc2.png)
+    ![](imgs/abc2.png)
 
 
 2. Click on **Delete**
 
 
-![](imgs/abc3.png)
+    ![](imgs/abc3.png)
 
 
 
 3. You will be notified about successful model deletion and it will be also removed from the model list page.
 
 
-![](imgs/abc4.png)
+    ![](imgs/abc4.png)
 
 
 ***Note: Once deleted the model cannot be retrieved. ***
