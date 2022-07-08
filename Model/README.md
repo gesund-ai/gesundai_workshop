@@ -24,18 +24,13 @@ We need to upload model artifacts to follow a certain template, in-order to be u
 
 7. Select the **Architecture** of your choice, the **Architecture** list will be a subset list as per the selected **Model Type** and **Framework.** 
 
-        Note: There are two types of architecture, default and user, when you download the artifacts, it will from a default model list that we have already implemented in our platform. You might have to structure the model bundle as per our structure.
+    ***Note: There are two types of architecture, default and user, when you download the artifacts, it will from a default model list that we have already implemented in our platform. You might have to structure the model bundle as per our structure.***
 
 8. Click on **Download Artifacts**
 
 9. After download you will get two responses from the application, a **model\_artifacts.zip** file will be downloaded and a notification will be popped up.
 
     ![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.004.png)![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.005.png)
-
-
-The zip file would contain the following files list
-   
-  ![image](https://user-images.githubusercontent.com/76263415/177964309-077f3746-d855-46a0-8260-bb516cd7e3ca.png) 
 
 
 
@@ -48,7 +43,7 @@ In reference with the above image, follow the instructions to implement your mod
         
         Make a note that the class should be named  
         GesundModel.
-    ![image](https://user-images.githubusercontent.com/76263415/177963401-cb1b4dac-1f75-4eda-a310-a282fc4e8e0e.png)
+    ![image](https://user-images.githubusercontent.com/76263415/177966179-809275e3-7f8f-450c-ab84-92af9adf162d.png)
 
 
 2. The [**loss.py**](artifacts/loss.py) is the python script where you will store all your loss functions in the form of loss functions or loss class as per your requirement
