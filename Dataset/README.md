@@ -174,7 +174,7 @@ Here, there is no uploading step, rather the dataset is added directly into the 
 1. Select the **File Type**, **Upload Option** as **Upload Dataset with local path**.
 Enter the local path. 
 
-![](imgs/image25.png)
+![image](https://user-images.githubusercontent.com/76263415/177980406-0022761b-f886-41a4-8714-a4cd5c4975de.png)
 
 2. Follow the steps **8 - 16** from **Option 1: Uploading dataset zip file to local storage.**  It would be exactly the same. 
 
