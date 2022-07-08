@@ -34,17 +34,21 @@ We need to upload model artifacts to follow a certain template, in-order to be u
 
 
 The zip file would contain the following files list
+   
+  ![image](https://user-images.githubusercontent.com/76263415/177964309-077f3746-d855-46a0-8260-bb516cd7e3ca.png) 
+
 
 
 # Step 2: Model artifacts content explanation
 
 In reference with the above image, follow the instructions to implement your model architecture
 
-1. The [**model.py**](artifacts/model.py) is the main python file that includes the model load, prediction and loss calculation definitions. 
+1. The [**model.py**](artifacts/model.py) is the main python file that includes the model load, predict and loss calculation definitions inside GesundModel class. 
  
         
         Make a note that the class should be named  
         GesundModel.
+    ![image](https://user-images.githubusercontent.com/76263415/177963401-cb1b4dac-1f75-4eda-a310-a282fc4e8e0e.png)
 
 
 2. The [**loss.py**](artifacts/loss.py) is the python script where you will store all your loss functions in the form of loss functions or loss class as per your requirement
