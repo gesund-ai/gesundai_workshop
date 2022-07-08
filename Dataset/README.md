@@ -41,12 +41,12 @@ The platform supports multiple options for uploading any dataset, which you may 
 #### Option 1: Uploading a dataset zip file to local storage
 
 This option enables you to upload a zip file to the platform local storage.
-Choosing this option you can upload a zip file, and its respective metadata file.
-At the moment, the platform supports metadata file with **.csv** extension.
+Choosing this option you can upload a zip file.
+
 
 ***Note: This option would be efficient in uploading the dataset files with size <500mb. The zip file should not contain nested folders.***
 
-Following are the **steps** to upload a dataset zip file and the metadata
+Following are the **steps** to upload a dataset zip file.
 
 1. Select the file type of the dataset. The platform supports uploading, **PNG, JPG, NIFTI, DICOM, TIFF** types of images.
 
