@@ -101,7 +101,7 @@ First option is cloning from metadata. For cloning from previous annotation sele
 
 ![](imgs/image8.png)
 
-9. Newly uploaded annotation can be seen from the select box below the **Metadata Management** title.
+9. Newly uploaded metadata can be seen from the select box below the **Metadata Management** title.
 
 ## Option 2: Upload Metadata File
 
@@ -138,3 +138,35 @@ Second option is uploading Metadata as CSV file.
 11. Click on the **Submit** button and modal will be close.
 
 12. Follow the steps **7-8-9** mentioned in the **Option 1** Section.
+
+## Option 3: Upload From Dicom Metadata
+
+Third option is uploading from Dicom metadata.
+
+![](imgs/image17.png)
+
+1. Enter name for metadata.
+
+2. Click on the **Get From Dicom Metadata** button.
+
+3. Select the fields that will be include in validation. All of the fields or few fields can be select.
+
+4. Click on the **Add** button and then metadata details will be shown.
+
+![](imgs/image18.png)
+
+5. Click on the **Add New Metadata Field** button to add extra metadata.
+
+6. Fill the field name for new metadata and select the metadata type from selectbox.
+
+7. Click on the **Submit** button and new metadata will be added.
+
+8. Click on the **Submit** button and upload modal will be close.
+
+![](imgs/image19.png)
+
+9. Click on the **Save** button and modal will open.
+
+10. Click on the **Confirm** button to finish upload metadata process.
+
+11. Newly uploaded metadata can be seen from the select box below the **Metadata Management** title.
