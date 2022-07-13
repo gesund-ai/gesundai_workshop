@@ -70,13 +70,14 @@ Following are the **steps** to upload a dataset zip file.
 
 5. Click on the **Open** button
 
-![Uploading image.png…]()
-
 
 
 6. When the upload is successful, you will see a green completed progress bar. 
 A set of 10 images as thumbnails will be displayed, from the given the zip file.
 Here there are only 5 files in the zip hence all the images are displayed as thumbnails 
+
+![image](https://user-images.githubusercontent.com/76263415/178653836-311426ab-3451-4e94-b19a-ff02979f77cb.png)
+
 
 7. A notification will be blinked when the dataset upload is successful.
 
