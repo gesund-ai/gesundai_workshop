@@ -43,7 +43,8 @@ In reference with the above image, follow the instructions to implement your mod
         
         Make a note that the class should be named  
         GesundModel.
-    ![image](https://user-images.githubusercontent.com/76263415/177966179-809275e3-7f8f-450c-ab84-92af9adf162d.png)
+        
+    ![image](https://user-images.githubusercontent.com/76263415/178654210-e21551d1-dee8-465c-ad12-5454eebf80df.png)
 
 
 2. The [**loss.py**](artifacts/loss.py) is the python script where you will store all your loss functions in the form of loss functions or loss class as per your requirement
