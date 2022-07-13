@@ -50,24 +50,28 @@ Following are the **steps** to upload a dataset zip file.
 
 1. Select the file type of the dataset. The platform supports uploading, **PNG, JPG, NIFTI, DICOM, TIFF** types of images.
 
-![image](https://user-images.githubusercontent.com/76263415/177981946-b2b4d720-5c31-4f0a-9b1e-65377dc8fca5.png)
+![image](https://user-images.githubusercontent.com/76263415/178652185-b8cf0c29-f38d-407f-93f9-1f13ee7ce627.png)
+
 
 2. Select **Upload Dataset .zip file** option.
 
-![image](https://user-images.githubusercontent.com/76263415/177981926-ccded74f-5168-462e-b7f8-0d167ec3f827.png)
+![image](https://user-images.githubusercontent.com/76263415/178652439-8e321a85-f24b-4421-a9d9-1db1e5e6aa5a.png)
 
 
 3. Select the dataset destination, here we will choose to store the image in the local storage of the platform
 
-![image](https://user-images.githubusercontent.com/76263415/177981980-03e9b1cf-a1a3-4926-808a-292d12c3fb96.png)
+![image](https://user-images.githubusercontent.com/76263415/178652704-883d0733-0007-4c3c-a794-bf9491390d66.png)
+
 
 4. Click on the **Upload Dataset**, select the zip file you wish to upload  
 
-![image](https://user-images.githubusercontent.com/76263415/177982019-666ef2de-a638-443a-9b77-099b97674d9e.png)
+![image](https://user-images.githubusercontent.com/76263415/178653206-6f3913f0-7aa2-4e0d-aabc-16f9e829d4b8.png)
+
 
 5. Click on the **Open** button
 
-![image](https://user-images.githubusercontent.com/76263415/177982459-e6e1ca8a-e96a-461e-be78-43514c6a86ae.png)
+![Uploading image.png…]()
+
 
 
 6. When the upload is successful, you will see a green completed progress bar. 
