@@ -41,38 +41,43 @@ The platform supports multiple options for uploading any dataset, which you may 
 #### Option 1: Uploading a dataset zip file to local storage
 
 This option enables you to upload a zip file to the platform local storage.
-Choosing this option you can upload a zip file, and its respective metadata file.
-At the moment, the platform supports metadata file with **.csv** extension.
+Choosing this option you can upload a zip file.
+
 
 ***Note: This option would be efficient in uploading the dataset files with size <500mb. The zip file should not contain nested folders.***
 
-Following are the **steps** to upload a dataset zip file and the metadata
+Following are the **steps** to upload a dataset zip file.
 
 1. Select the file type of the dataset. The platform supports uploading, **PNG, JPG, NIFTI, DICOM, TIFF** types of images.
 
-![](imgs/image4.png)
+![image](https://user-images.githubusercontent.com/76263415/178652185-b8cf0c29-f38d-407f-93f9-1f13ee7ce627.png)
+
 
 2. Select **Upload Dataset .zip file** option.
 
-![](imgs/image5.png)
+![image](https://user-images.githubusercontent.com/76263415/178652439-8e321a85-f24b-4421-a9d9-1db1e5e6aa5a.png)
 
 
 3. Select the dataset destination, here we will choose to store the image in the local storage of the platform
 
-![](imgs/image6.png)
+![image](https://user-images.githubusercontent.com/76263415/178652704-883d0733-0007-4c3c-a794-bf9491390d66.png)
+
 
 4. Click on the **Upload Dataset**, select the zip file you wish to upload  
 
-![](imgs/image7.png)
+![image](https://user-images.githubusercontent.com/76263415/178653206-6f3913f0-7aa2-4e0d-aabc-16f9e829d4b8.png)
+
 
 5. Click on the **Open** button
 
 
-![](imgs/image8.png)
 
 6. When the upload is successful, you will see a green completed progress bar. 
 A set of 10 images as thumbnails will be displayed, from the given the zip file.
 Here there are only 5 files in the zip hence all the images are displayed as thumbnails 
+
+![image](https://user-images.githubusercontent.com/76263415/178653836-311426ab-3451-4e94-b19a-ff02979f77cb.png)
+
 
 7. A notification will be blinked when the dataset upload is successful.
 
