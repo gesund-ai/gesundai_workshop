@@ -6,15 +6,15 @@ We need to upload model artifacts to follow a certain template, in-order to be u
 1. Click on the **Model** page of the application
 
 
-![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.001.png)
+    ![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.001.png)
 
 2. Click on the **Upload Models** tab
 
-![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.002.png)
+    ![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.002.png)
 
 3. Click on the **Download & Upload Artifacts** on the bottom of the page. You will see a modal popping up as shown in the below image.
 
-![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.003.png)
+    ![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.003.png)
 
 4. Click on the **Download Artifacts** Tab in the model
 
@@ -24,57 +24,38 @@ We need to upload model artifacts to follow a certain template, in-order to be u
 
 7. Select the **Architecture** of your choice, the **Architecture** list will be a subset list as per the selected **Model Type** and **Framework.** 
 
-***Note: There are two types of architecture, default and user, when you download the artifacts, it will from a default model list that we have already implemented in our platform. You might have to structure the model bundle as per our structure.***
+    ***Note: There are two types of architecture, default and user, when you download the artifacts, it will from a default model list that we have already implemented in our platform. You might have to structure the model bundle as per our structure.***
 
 8. Click on **Download Artifacts**
 
 9. After download you will get two responses from the application, a **model\_artifacts.zip** file will be downloaded and a notification will be popped up.
 
-![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.004.png)![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.005.png)
+    ![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.004.png)![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.005.png)
 
 
-The zip file would contain the following files list
-
-![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.006.png)
 
 # Step 2: Model artifacts content explanation
 
 In reference with the above image, follow the instructions to implement your model architecture
 
-1. The [**\_\_init\_\_.py**](artifacts/__init__.py) file contains the models import from model and response python scripts
-
-![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.007.png)
-
-2. Here, the **classifier.h5** is the model used in this example, it can any saved model that includes *.pth, .pt, tensorflow checkpoints, pt model checkpoints, .onnx model, .sklearn model etc.*
-
-3. The [**loss.py**](artifacts/loss.py) is the python script where you will store all your loss functions in the form of loss functions or loss class as per your requirement
-
-4. The [**model.py**](artifacts/model.py) is the main python file that includes the model load, prediction and loss calculation definitions. The main point to note here is registering your model class.
-![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.008.png)
+1. The [**model.py**](artifacts/model.py) is the main python file that includes the model load, predict and loss calculation definitions inside GesundModel class. 
+ 
+        
+        Make a note that the class should be named  
+        GesundModel.
+        
+    ![image](https://user-images.githubusercontent.com/76263415/178654210-e21551d1-dee8-465c-ad12-5454eebf80df.png)
 
 
-4.1 Write the name of your class
-
-4.2. Import the model service from the registry to register your class
-
-4.3. Decorate the model service class with register module function and choose to give an appropriate namespace, make sure default is always set to false.
-
-***Note:** Make a note of the namespace you are using here, it will be required when in case of model upload.***
+2. The [**loss.py**](artifacts/loss.py) is the python script where you will store all your loss functions in the form of loss functions or loss class as per your requirement
 
 
-5. Write your preprocess function in the [**postprocess.py**](artifacts/postprocess.py) python file as a class or function
+5. Write your preprocess function in the [**postprocess.py**](artifacts/postprocess.py) python file as a class or function.
 
 6. Write your preprocess function in the [**preprocess.py**](artifacts/preprocess.py) python file as a class or function
 
 7. For model deployment we require a [**reqs.txt**](artifacts/reqs.txt) file that includes the package versions required for this file.
 
-8. Write the response schema in the [**schema.py**](artifacts/schema.py) as per the postprocess output.
-
-![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.009.png)
-
-8.1. Import the out schema from register to register your response model. It would be a pydantic model
-
-8.2. Decorate the class with outschema class and register module function to register your class with respective namespace (it should be the same as used to register model class and default set to false)
 
 # Step 3: Upload the model artifacts
 
@@ -114,33 +95,35 @@ Following are the steps to upload the model
 
 11. Click on the **Continue** button.
 
-![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.015.png)
+    ![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.015.png)
 
 12. After you click on **Continue** button, the next section you will be directed to is the **Upload Files** section.
 
 13. Click on the **Upload Model** area and select the model artifacts zip file that you have prepared.
 
-![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.016.png)
+    ![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.016.png)
 
-14. When you upload the zip file the progress bar indicates the upload status. Once the upload is complete you will receive a notification on the top right of the screen stating the model upload being successful.
+14. When you upload the zip file the progress bar indicates the upload status.
 
-![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.017.png)
+    Once the upload is complete you will receive a notification on the top right of the screen stating the model upload being successful.
+
+    ![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.017.png)
 
 15. Fill in the model card details form, you can choose to **Fill From Previous Models.** 
 
-![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.018.png)
+    ![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.018.png)
 
 16. Once the details are filled click on the **Submit** button.
 
-![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.019.png)
+    ![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.019.png)
 
 17. There will be a pop-up notification stating the successful addition of model card to the platform. Click on the **Back to Models** button.
 
-![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.020.png)
+    ![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.020.png)
 
 18. On the models page you will see your recently upload model enlisted as in the list of models.
 
-![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.021.png)
+    ![](imgs/Aspose.Words.8f71bfe1-5ddf-4bba-8ce0-2a1ef39fd4e0.021.png)
 
 Click on the model card area and it will redirect to this page where you can choose to deploy the model and start with model prediction in the playground section.
 
@@ -151,20 +134,20 @@ Click on the model card area and it will redirect to this page where you can cho
 
 1. Click on the **Delete** button on the top right corner of the screen
 
-![](imgs/abc2.png)
+    ![](imgs/abc2.png)
 
 
 2. Click on **Delete**
 
 
-![](imgs/abc3.png)
+    ![](imgs/abc3.png)
 
 
 
 3. You will be notified about successful model deletion and it will be also removed from the model list page.
 
 
-![](imgs/abc4.png)
+    ![](imgs/abc4.png)
 
 
-***Note: Once deleted the model cannot be retrieved. ***
+        Note: Once deleted the model cannot be retrieved.
