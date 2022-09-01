@@ -23,20 +23,16 @@
 |[MR Heart 3D](https://gesundai-medical-images.s3.eu-west-1.amazonaws.com/public/MR_Heart_3D/Mr_Heart.zip)|[GitHub](https://github.com/cchen-cc/SIFA)|None|Nii|Chest|CT|1.2|Annotation/[Metadata](https://gesundai-medical-images.s3.eu-west-1.amazonaws.com/public/MR_Heart_3D/meta_data.csv)
 |[Breast Cancer](https://gesundai-medical-images.s3.eu-west-1.amazonaws.com/public/Breast_Cancer_Segmentation/Breast_Cancer_Public.zip)|[Grand Challenge](grand-challenge)|6000X4000|PNG|Chest|CT|1.6|Annotation[Metadata](https://gesundai-medical-images.s3.eu-west-1.amazonaws.com/public/Breast_Cancer_Segmentation/meta_data.csv)
 
-## How to Upload the Dataset Cover Image
+## How to Upload a dataset
+This document guides through the dataset upload process.
+The platform supports multiple options for uploading any dataset, which you may choose from.
 
 1. Click on the **Data** page of the application
 
 ![](imgs/image1.png)
 
-
 2. Click on the **Upload Dataset** tab
 
-This document guides through the dataset upload process.
-
-### How to Upload a dataset
-
-The platform supports multiple options for uploading any dataset, which you may choose from.
 
 #### Option 1: Uploading a dataset zip file to local storage
 
