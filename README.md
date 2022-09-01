@@ -1,14 +1,12 @@
 # User Manual
 
 
-## Content
-
-### DATA
-  #### Dataset Catalogue Page
+## DATA
+  ### Dataset Catalogue Page
   1. [Dataset Card Explaination and Shortcuts]()
   2. [How to Filter dataset]()
 
-  #### Dataset Details Page
+  ### Dataset Details Page
   1. [Dataset Overview Explanations and Shortcuts]()
   2. [Exolore dataset]()
   3. [Annotations]()
@@ -17,40 +15,40 @@
   6. [Similar Datasets]()
   7. [Data Source]()
 
-  #### Upload Dataset Page
+  ### Upload Dataset Page
   1. [How to Upload dataset](Dataset#how-to-upload-a-dataset)
   
-  #### Archived Dataset Page
+  ### Archived Dataset Page
   1. [How to Archive / Restore dataset]()
   
-  #### Dataset Curation
+  ### Dataset Curation
   1. [How to curate dataset]()
   
-  #### Dataset Analysis
+  ### Dataset Analysis
   1. [Outliers]()
   2. [Duplicates]()
   3. [Image Statistics]()
 
-### MODEL
+## MODEL
 
-  #### Model Catalogue Page
+  ### Model Catalogue Page
   1. [How to filter models]()
 
-  #### Model Details Page
+  ### Model Details Page
   1. [Dataset Overview Explanations and Shortcuts]()
   2. [Monitoring]()
   3. [Container logs]()
   4. [Pre - Post Processing]()
   5. [Model Source Details]()
  
-  #### Model Details Page
+  ### Model Details Page
   1. [How to Upload a Model](/Model)
   
-  #### Archived Dataset Page
+  ### Archived Dataset Page
   1. [How to Archive / Restore Model]()
   
   
-### PLAYGROUND
+## PLAYGROUND
 
 1. [How to get predictions]()
 2. [How to use Augmentation Menu]()
@@ -61,29 +59,29 @@
 7. [How to start a validation run]()
 
 
-### VALIDATION
-  #### Validation Summary Page 
+## VALIDATION
+  ### Validation Summary Page 
   1. [Validation Summary Page Explained]()
   2. [How to filter charts]()
   
-  #### Validation Analysis Page
+  ### Validation Analysis Page
   1. [How to explore Validation Metrics]()
   2. [How to compare Validations]()
   3. [Blind Spot Analysis]()
   4. [How to Start a Validation Job]()
 
-### ANNOTATION
+## ANNOTATION
   1. [How to create an annotation project]()
   2. [How to start labelling]()
   3. [Annotation project progress page Explained]()
 
-### PLATFORM
+## PLATFORM
   1. [Platform Monitoring Page Explained]()
   2. [Usage Statistics Explained]()
   3. [User Management Explained]()
   4. [AWS Credential Management Explained]()
 
-### SETTINGS
+## SETTINGS
   1. [Account]()
   2. [Notifications]()
   3. [Security]()
