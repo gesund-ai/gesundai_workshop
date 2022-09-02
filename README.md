@@ -53,10 +53,11 @@
 1. [How to get predictions]()
 2. [How to use Augmentation Menu]()
 3. [How to use Image viewer controls]()
-4. [How to find Similar Images]()
-5. [How to upload dataset]()
+4. [How to view Similar Images]()
+5. [How to upload an image]()
 6. [How to apply filters]()
-7. [How to start a validation run]()
+7. [DICOM viewer controls]()
+8. [How to use XAI]()
 
 
 ## VALIDATION
