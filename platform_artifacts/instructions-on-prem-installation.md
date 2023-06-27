@@ -1,2 +1,85 @@
-Given that you already have an access to the platform package (tarball, the on-prem installation steps are the following:
- ...
+1. Connect to the server using SSH or any preferred method.
+
+    
+    ```
+    ssh username@yourserver
+    ```
+    
+2. Create a deployment directory
+    
+    ```
+    mkdir deployment/ && cd deployment
+    ```
+    
+3. Download the tarball from S3
+    
+    ```
+    
+    aws s3 cp URL_TO_S3_BUCKET .
+    ```
+    
+4. Download the installation script
+    
+    ```
+    aws s3 cp URL_TO_S3_BUCKET .
+    ```
+    
+5. Execute the `install.sh` script with the appropriate tarball path.
+    
+    ```
+    TARBALL_PATH="/path/to/tarball/" ./install.sh
+    
+    ```
+    
+    This command will install the platform CLI.
+    
+6. Optionally, you can start the services directly by setting the `START_SERVICES` environment variable and skipping step 4.
+    
+    ```
+    START_SERVICES=1 TARBALL_PATH="/path/to/tarball/" ./install.sh
+    
+    ```
+    
+7. Execute the `gesund-cli` command.
+    
+    ```
+    gesund start --fresh --web
+    
+    ```
+    
+8. Open a web browser and access the platform using the public IP address. (e.g)
+    
+    ```
+    <http://SERVER_PUBLIC_IP>
+    
+    ```
+    
+    Replace `SERVER_PUBLIC_IP` with the actual public IP address of the server.
+    
+9. Check if the services are running. Run the following command:
+    
+    ```
+    docker ps
+    ```
+    
+    You should be able the following service container running:
+    
+    - mlutility
+    - gesund-docs
+    - web-client
+    - web-server
+    - web_bin_certbot_1
+    - db_manager
+    - nodejs-tool
+    - mongodb
+    - rabbitmq
+10. Enter the provided credentials to log in to the platform.
+    - Username: [admin@gesund.ai](mailto:admin@gesund.ai)
+    - Password:
+    
+    The password can be obtained by getting the instance ID e.g
+    
+    ```
+    sudo dmidecode | grep UUID
+    > UUID: 123a5b-293c-41ec-aa4e-9ff04f99f3e7
+    ```
