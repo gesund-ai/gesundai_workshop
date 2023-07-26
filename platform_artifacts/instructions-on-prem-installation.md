@@ -26,7 +26,7 @@
 5. Decrypt the tarball
     Use the password provided by Gesund team
     ```
-    openssl  aes-256-cbc -d -in gesund_platform*.tar.enc 
+    openssl  aes-256-cbc -d -in gesund_platform*.tar.enc -out gesund_platform*.tar
     ```
 
 6. Execute the `install.sh` script with the appropriate tarball path.
