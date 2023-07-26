@@ -15,16 +15,21 @@
     
     ```
     
-    aws s3 cp URL_TO_S3_BUCKET .
+    aws s3 cp s3://PATH/TO/TARBALL YOUR/LOCAL/PATH --sse AES256
     ```
     
 4. Download the installation script
     
     ```
-    aws s3 cp URL_TO_S3_BUCKET .
+    aws s3 cp s3://PATH/TO/INSTALLATION_SCRIPT YOUR/LOCAL/PATH
     ```
-    
-5. Execute the `install.sh` script with the appropriate tarball path.
+5. Decrypt the tarball
+    Use the password provided by Gesund team
+    ```
+    openssl  aes-256-cbc -d -in gesund_platform*.tar.enc 
+    ```
+
+6. Execute the `install.sh` script with the appropriate tarball path.
     
     ```
     TARBALL_PATH="/path/to/tarball/" ./install.sh
@@ -33,21 +38,21 @@
     
     This command will install the platform CLI.
     
-6. Optionally, you can start the services directly by setting the `START_SERVICES` environment variable and skipping step 4.
+7. Optionally, you can start the services directly by setting the `START_SERVICES` environment variable and skipping step 4.
     
     ```
     START_SERVICES=1 TARBALL_PATH="/path/to/tarball/" ./install.sh
     
     ```
     
-7. Execute the `gesund-cli` command.
+8. Execute the `gesund-cli` command.
     
     ```
     gesund start --fresh --web
     
     ```
     
-8. Open a web browser and access the platform using the public IP address. (e.g)
+9. Open a web browser and access the platform using the public IP address. (e.g)
     
     ```
     <http://SERVER_PUBLIC_IP>
@@ -56,7 +61,7 @@
     
     Replace `SERVER_PUBLIC_IP` with the actual public IP address of the server.
     
-9. Check if the services are running. Run the following command:
+10. Check if the services are running. Run the following command:
     
     ```
     docker ps
@@ -73,7 +78,7 @@
     - nodejs-tool
     - mongodb
     - rabbitmq
-10. Enter the provided credentials to log in to the platform.
+11. Enter the provided credentials to log in to the platform.
     - Username: [admin@gesund.ai](mailto:admin@gesund.ai)
     - Password:
     
