@@ -18,7 +18,7 @@
     aws s3 cp s3://PATH/TO/TARBALL YOUR/LOCAL/PATH --sse AES256
     ```
     
-4. Download the installation script
+4. Download the installation script (install.sh) 
     
     ```
     aws s3 cp s3://PATH/TO/INSTALLATION_SCRIPT YOUR/LOCAL/PATH
