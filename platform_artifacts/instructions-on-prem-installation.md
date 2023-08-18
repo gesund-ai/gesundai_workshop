@@ -88,3 +88,19 @@
     sudo dmidecode | grep UUID
     > UUID: 123a5b-293c-41ec-aa4e-9ff04f99f3e7
     ```
+12. Listed below are the container sizes for various components of the "gesund" services:
+
+    ```
+    gesundai/gesund-app            259MB
+    gesundai/gesund-app            179MB
+    prediction                    2.18GB
+    mlutility                     8.62GB
+    validation                    2.56GB
+    db_manager                    6.62GB
+    autodeploy                    1.93GB
+    nodejs-tool                    536MB
+    gesundai/gesund-docs           837MB
+    certbot/certbot               96.6MB
+    rabbitmq                       270MB
+    mongo                          696MB
+    ```
