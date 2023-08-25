@@ -166,7 +166,7 @@ echo "alias gesund=$GESUND_CLI_EXC" >> ~/.bashrc || handle_error "Failed to add 
 
 
 
-if [ "$START_SERVICES" -eq 1 ]; then
+if [ "$START_SERVICES" -eq 1 ]; ¬then
     LOG_FILE="gesund-installation-cli.log"
 
     echo "Starting gesund services"
